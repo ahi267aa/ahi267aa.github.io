@@ -1,0 +1,33 @@
+/* src/About/header.css */
+/* Layout Arrangement */
+.about {
+  background-size: cover;
+  background-color: rgb(240, 239, 239);
+  color: #272728;
+  padding: 2rem 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.about-container-left {
+  flex: 1;
+  padding: 5rem;
+}
+
+.about-container-right {
+  flex: 2;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* .about-container-left-photo {
+    background-image: url(../images/about_photo.jpg);
+} */
